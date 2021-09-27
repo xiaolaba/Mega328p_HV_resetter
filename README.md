@@ -17,8 +17,12 @@ I have no MUN5311 but plenty of NPN transistors & resistors 220 / 1k / 10k lying
 NPN switch is an invertor, original author has design 5V->12V booster and the non-inverting control circuit thus the code was not working for my case. so the code has to change a bit.  
 
 ### software design change  
-add routines,
-VCC_on();
-VCC_off();
-RST_12V_on();
-RST_12V_off();
+add routines,  
+VCC_on();  
+VCC_off();  
+RST_12V_on();  
+RST_12V_off();  
+
+
+### circuit
+![Mega328p_HV_resetter_circuit.JPG](Mega328p_HV_resetter_circuit.JPG) 
