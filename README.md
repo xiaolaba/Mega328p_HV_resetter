@@ -10,6 +10,9 @@ I have no MUN5311 but plenty of NPN transistors & resistors 220 / 1k / 10k lying
 5. press GO button
 6. job done
 
+![test_done.JPG](test_done.JPG)  
+
+
 ### hardware design change  
 NPN switch is an invertor, original author has design 5V->12V booster and the non-inverting control circuit thus the code was not working for my case. so the code has to change a bit.  
 
