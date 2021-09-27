@@ -1,7 +1,7 @@
 # Mega328p_HV_resetter
 clone and modification, original designed by https://mightyohm.com/files/hvrescue21/HVRescue_Shield_r21_schematic.png  
 
-I have no MUN5311 but plenty of NPN transistors & resistors 220 / 1k / 10k lying around, so use whatever avaialble as it is, try ![NPN swtich as Tiny13_HV_resetter](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/5V_12V_power_supply.1.jpg) does, turns out that it works perfectely, 12V external supply is a must to be used.
+I have no MUN5311 but plenty of NPN transistors & resistors 220 / 1k / 10k lying around, so use whatever avaialble as it is, try [NPN swtich as Tiny13_HV_resetter](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/5V_12V_power_supply.1.jpg) does, turns out that it works perfectely, 12V external supply is a must to be used.
 
 1. burn the code the UNO   
 2. connect pins to target MCU (Atmega328p)  
